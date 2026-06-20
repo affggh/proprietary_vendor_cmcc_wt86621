@@ -53,7 +53,12 @@ PRODUCT_COPY_FILES += \
     vendor/cmcc/wt86621/proprietary/vendor/etc/permissions/qcnvitems.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/qcnvitems.xml \
     vendor/cmcc/wt86621/proprietary/vendor/etc/permissions/qcrilhook.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/qcrilhook.xml \
     vendor/cmcc/wt86621/proprietary/vendor/etc/permissions/qti_permissions.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/qti_permissions.xml \
-    vendor/cmcc/wt86621/proprietary/vendor/lib/libwcnss_qmi.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwcnss_qmi.so \
+    vendor/cmcc/wt86621/proprietary/vendor/lib/hw/camera.vendor.msm8916.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/camera.vendor.msm8916.so \
+    vendor/cmcc/wt86621/proprietary/vendor/lib/libmm-qcamera.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmm-qcamera.so \
+    vendor/cmcc/wt86621/proprietary/vendor/lib/libmmcamera_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_interface.so \
+    vendor/cmcc/wt86621/proprietary/vendor/lib/libmmjpeg_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmjpeg_interface.so \
+    vendor/cmcc/wt86621/proprietary/vendor/lib/libqomx_core.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqomx_core.so \
+    vendor/cmcc/wt86621/proprietary/vendor/bin/vm_bms:$(TARGET_COPY_OUT_VENDOR)/bin/vm_bms \
     vendor/cmcc/wt86621/proprietary/vendor/bin/perfd:$(TARGET_COPY_OUT_VENDOR)/bin/perfd \
     vendor/cmcc/wt86621/proprietary/vendor/bin/thermal-engine:$(TARGET_COPY_OUT_VENDOR)/bin/thermal-engine \
     vendor/cmcc/wt86621/proprietary/vendor/lib/com.quicinc.cne.api@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.quicinc.cne.api@1.0.so \
